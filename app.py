@@ -11,7 +11,7 @@ from streamlit_template_pkg.data_utils import (
 )
 
 # Page configuration
-st.set_page_config(page_title="MA Public Higher Education Awards", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="MA Public Higher Education Awards!!", layout="wide", initial_sidebar_state="expanded")
 
 # Load and cache data at application startup
 df = load_awards_data(CSV_PATH)
